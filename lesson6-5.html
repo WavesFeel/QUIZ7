@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <a href="#" class="logo">STORT<span>HUB</span></a>
+                <div class="exit">
+                    <p class="nameuser">Мисайлов Райф</p>
+                    <a href="#" class="iconexit">a</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="container">
+            <div class="content_inner">
+                <div class="menu">
+                    <div class="class-switch">
+                        <button class="switch-btn" data-href="index.html">5 класс</button>
+                        <button class="switch-btn active" data-href="2lesson.html">6 класс</button>
+                    </div>
+                    <ul class="lesson-list">
+                        <li data-href="lesson0.html">Введение</li>
+                        <li data-href="index.html">Урок 1. Базовые правила безопасности в кабинете
+                            информатики</li>
+                        <li data-href="lesson2.html">Урок 2. Эргономика</li>
+                        <li data-href="lesson3.html">Урок 3. Кибер-гигиена и защита личных данных</li>
+                        <li data-href="lesson4.html">Урок 4. Как работают компьютеры: Аппаратное обеспечение</li>
+                        <li data-href="lesson5.html">Урок 5. Как работают компьютеры: Программное обеспечение</li>
+                        <li data-href="lesson6.html">Урок 6. Алгоритмы</li>
+                    </ul>
+
+                </div>
+                <div class="content_games">
+                    <div class="algorithm-task">
+                        <img src="images/Video6_4.png" alt="Робот Алтин" class="robot-img"
+                            style="width: 550px; float: left; margin-right: 40px;">
+
+
+                        <div class="algorithm-right" style="overflow: hidden;">
+                            <!-- <div class="speech-bubble"
+                                style="background: #4D36DB; color: white; padding: 20px; border-radius: 20px; font-weight: 500; margin-bottom: 20px;">
+                                <p>
+                                    А теперь — проверим, сможешь ли ты составить свой алгоритм!<br>
+                                    <strong>Составь алгоритм<br>«Как почистить зубы» из 5 шагов.</strong><br>
+                                    Пиши в ячейках
+                                </p>
+                            </div> -->
+
+                            <form class="steps-form" id="algorithmForm">
+                                <input type="text" placeholder="1." required>
+                                <input type="text" placeholder="2." required>
+                                <input type="text" placeholder="3." required>
+                                <input type="text" placeholder="4." required>
+                                <input type="text" placeholder="5." required>
+                                <button type="submit"
+                                    style="margin-top: 20px; padding: 12px 24px; background-color: #4D36DB; color: white; border: none; border-radius: 10px; cursor: pointer; font-size: 16px;">Отправить
+                                    мой алгоритм</button>
+                            </form>
+
+                            <div class="result-box" id="resultBox"
+                                style="display: none; margin-top: 20px; background: #f4f4f4; padding: 20px; border-radius: 12px; border: 2px solid #4D36DB; font-weight: 600; font-size: 16px; color: #333;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
